@@ -3,16 +3,16 @@
 This repository presents the design and simulation of NAND GATE using CMOS technique on 28nm CMOS technology using Synopsys Custom Compiler and Synopsys Primewave.
 
 # Table of Contents
-- [Abstract](https://github.com/udaykiran827/IIT-udaykiran827/README.md#abstract)
-- [Tools Used](https://github.com/udaykiran827/IIT-udaykiran827/main/README.md#tools-used)
-- [testbench circuit](https://github.com/udaykiran827/IIT-udaykiran827/blob/main/cp_lib1_nand2x1_tb_schematic.png)
-- [CMOS schematic](https://github.com/udaykiran827/IIT-udaykiran827/blob/main/cp_lib1_nand2x1_schematic.png)
-- [Simulations](https://github.com/udaykiran827/IIT-udaykiran827/blob/main/output.png)
-- [Netlist](https://github.com/udaykiran827/IIT-udaykiran827/blob/main/cp_lib1_nand2x1.sp)
-- [Results](https://github.com/udaykiran827/IIT-udaykiran827/blob/main/delay_power.png)
-- [Author](https://github.com/udaykiran827/IIT-udaykiran827)
+- [Abstract](https://github.com/udaykiran827/IIT-udaykiran827#abstract)
+- [Tools Used](https://github.com/udaykiran827/IIT-udaykiran827#tools-used)
+- [Testbench circuit](https://github.com/udaykiran827/IIT-udaykiran827#testbench-circuit)
+- [CMOS Schematic Gate](https://github.com/udaykiran827/IIT-udaykiran827#cmos-schematic-gate)
+- [Simulations](https://github.com/udaykiran827/IIT-udaykiran827#simulations)
+- [Netlist](https://github.com/udaykiran827/IIT-udaykiran827#netlist)
+- [Results](https://github.com/udaykiran827/IIT-udaykiran827#results)
+- [Author](https://github.com/udaykiran827/IIT-udaykiran827#author)
 - [Acknowedgements](https://github.com/udaykiran827/IIT-udaykiran827#acknowledgements)
-- [References](https://github.com/udaykiran827/IIT-udaykiran827/#references)
+- [References](https://github.com/udaykiran827/IIT-udaykiran827#references)
 
 # Abstract
 
@@ -24,17 +24,7 @@ There are many basic gates like inverter, NAND gate, NOR gate which are extensiv
 - Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
 - Synopsys 28nm PDK:  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
-# CMOS Technique
-
-new methods for area reduction in 28 nm technology have been proposed. The reinforcement of integrated circuits is challenged by higher area and power consumption. Emerging need for miniaturization is responsible for attraction of attention to high performance VLSI designing. Therefore, trading off power and area performance in nanometer scale integrated circuits is also becoming popular. Scaling increases speed, performance and reduces area and power consumption. Due to explosive growth of VLSI industry, the demand of area efficient devices has increased. As NAND gate is basic circuit element so such demands can be fulfilled. A logic gate is an essential physical device that implements a Boolean function. They are significant building block for efficient performance of circuits.
-<p align="center">
-  <img src="https://github.com/udaykiran827/IIT-udaykiran827/blob/main/cp_lib1_nand2x1_symbol.png"> <br>
-</p>
-<p align="center">
-  <b> basic NAND GATE SYMBOL </b> <br>
-</p>
-
-# testbench Circuit
+# Testbench Circuit
 
 <p align="center">
   <img src="https://github.com/udaykiran827/IIT-udaykiran827/blob/main/cp_lib1_nand2x1_tb_schematic.png"> <br>
@@ -52,22 +42,22 @@ new methods for area reduction in 28 nm technology have been proposed. The reinf
 
 # Simulations
 
-# Delay Analysis
+# Transient Analysis
 
 <p align="center">
   <img src="https://github.com/udaykiran827/IIT-udaykiran827/blob/main/output.png"> <br>
 </p>
 <p align="center">
-  <b> Delay Analysis results </b> <br>
+  <b> Transient Analysis Results</b> <br>
 </p>
 
-# Power Analysis
+# Delay and Power Analysis
 
 <p align="center">
-  <img src="https://github.com/udaykiran827/IIT-udaykiran827/blob/main/output.png"> <br>
+  <img src="https://github.com/udaykiran827/IIT-udaykiran827/blob/main/delay_power.png"> <br>
 </p>
 <p align="center">
-  <b> Power Analysis results </b> <br>
+  <b> Delay and Power Analysis results </b> <br>
 </p>
 
 # Netlist
@@ -101,6 +91,7 @@ The NAND GATE circuit designed using CMOS Technique on 28nm Technology.
 # References
 
 [1] Vibha Soni, Nitin Naiyar, “Evaluation of Logic Families using NOR and NAND Logic gates”,International Journal of Engineering and Innovative Technology (IJEIT), Volume 3, Issue 7, January 2014
+
 [2] Neil Weste and David Harris, CMOS VLSI Design, Circuit and System perspective, edition 3, Pg no. 8.
 
 [3] Pushpa Saini, Rajesh Mehra, “Leakage Power Reduction in CMOS VLSI circuits” International Journal of Computer Applications (0975-8887), Volume 55-No. 8, October 2012 
